@@ -17,7 +17,7 @@ import java.net.URL
  * step. Point REPO at "owner/name" once this project lives on GitHub.
  */
 object UpdateChecker {
-    private const val REPO = "yourusername/GliphLY" // TODO: set to your GitHub repo
+    private const val REPO = "chapstic01/GliphLY" // TODO: set to your GitHub repo
     private const val TAG = "UpdateChecker"
 
     data class UpdateInfo(val tag: String, val apkUrl: String)
